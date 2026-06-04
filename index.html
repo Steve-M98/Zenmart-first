@@ -3,12 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
     <title>ZENMART {FIRST}</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="./public/css/command.css" />
     <link rel="stylesheet" href="./public/css/home.css" />
@@ -52,7 +49,8 @@
           </div>
 
           <div class="nav_top_menu">
-            <div class="top_menu_box">
+            <a href="./order/cart.html">
+               <div class="top_menu_box">
               <div class="box_icon_box">
                 <img src="./public/images/icons/heart.svg" alt="" />
               </div>
@@ -61,7 +59,10 @@
                 <strong>My Items</strong>
               </div>
             </div>
-            <div class="top_menu_box">
+            </a>
+           
+            <a href="./other/login.html">
+              <div class="top_menu_box">
               <div class="box_icon_box">
                 <img src="./public/images/icons/profile.svg" alt="" />
               </div>
@@ -70,7 +71,10 @@
                 <strong>Account</strong>
               </div>
             </div>
-            <div class="top_menu_box">
+            </a>
+            
+            <a href="./order/cart.html">
+               <div class="top_menu_box">
               <div class="box_icon_box">
                 <div class="basket_count">2</div>
                 <img src="./public/images/icons/shopping-cart.svg" alt="" />
@@ -80,6 +84,8 @@
                 <strong>Total</strong>
               </div>
             </div>
+            </a>
+           
           </div>
         </div>
         <div class="navbar_bott">
@@ -89,11 +95,11 @@
               <span>Browse Categories</span>
             </div>
             <div class="navbar_route_menu">
-              <a href="" class="title">Home</a>
-              <a href="">Shop</a>
-              <a href="">Orders</a>
-              <a href="">About</a>
-              <a href="">Contact</a>
+              <a href="/index.html" class="title">Home</a>
+              <a href="./product/all.html">Shop</a>
+              <a href="./order/cart.html">Orders</a>
+              <a href="./other/about.html">About</a>
+              <a href="./other/contact.html">Contact</a>
             </div>
 
             <div class="sorting_menu">
@@ -114,7 +120,7 @@
               <div>Special Offer</div>
               <span>Immersive Entertainment</span>
               <p>Discover our new items. Up to 25% Off!</p>
-              <a href="">Shop Now</a>
+              <a href="./product/all.html">Shop Now</a>
               <img src="./public/images/icons/header_img.svg" alt="" />
             </div>
           </div>
@@ -123,7 +129,7 @@
               <div class="box_left">
                 <span>Starting from $899.</span>
                 <p>Health Care Monitor</p>
-                <a href="">Shop Now</a>
+                <a href="./product/chosenProduct.html">Shop Now</a>
                 <div class="hover_border"></div>
               </div>
               <div class="box_right">
@@ -134,7 +140,7 @@
               <div class="box_left">
                 <span>Starting from $899.</span>
                 <p>Hanpicked Headphones</p>
-                <a href="">Shop Now</a>
+                <a href="./product/chosenProduct.html">Shop Now</a>
                 <div class="hover_border"></div>
               </div>
               <div class="box_right">
@@ -180,7 +186,7 @@
         <div class="container">
           <div class="category_top">
             <span>Shop Category</span>
-            <a href="">View All Categories</a>
+            <a href="./product/all.html">View All Categories</a>
           </div>
           <div class="category_wrapper">
             <div class="category_box">
@@ -226,15 +232,15 @@
         <div class="container">
           <div class="category_top">
             <span>Top Selling Products</span>
-            <a href="">View All</a>
+            <a href="./product/all.html">View All</a>
           </div>
-          <div class="product_wrapper">
-            <div class="next_prev_box">
+          <div class="product_wrapper swiper mySwiper">
+            <div class="next_prev_box swiper-btn-prev">
               <img src="./public/images/icons/next.svg" alt="" />
             </div>
-            <div class="product_boxes ">
-              <div class="product_box">
-                <a href="">
+            <div class="product_boxes swiper-wrapper">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -249,7 +255,7 @@
                 </a>
                 <div class="product_content_box">
                   <span class="product_title">Samsung</span>
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <p class="product_desc">
                       Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
                     </p>
@@ -268,8 +274,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box ">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -303,8 +309,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -338,8 +344,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -373,8 +379,8 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="product_box">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -408,8 +414,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -443,8 +449,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -478,8 +484,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
-                <a href="">
+              <div class="product_box swiper-slide">
+                <a href="./product/chosenProduct.html">
                   <div
                     class="product_img_box"
                     style="
@@ -512,29 +518,15 @@
                     <span>$55</span>
                   </div>
                 </div>
-              </div> -->
+              </div>
             </div>
             <div
-              class="next_prev_box "
+              class="next_prev_box swiper-btn-next"
               style="transform: scaleX(-1)"
             >
               <img src="./public/images/icons/next.svg" alt="" />
             </div>
-            <!-- <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-                <div class="swiper-slide"></div>
-              </div> -->
-            <!-- <div class="swiper-pagination"></div> -->
-          </div>
-        </div>
-        <div class="pagination_box">
+              <div class="pagination_box swiper-pagination">
             <div class="pagination_main">
               <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
               <div class="pagination_dot">
@@ -566,6 +558,9 @@
               />
             </div>
           </div>
+          </div>
+        </div>
+       
       </div>
       <div class="adv_frame">
         Members get free shipping* with no order minimum!*Restrictions apply.Try
@@ -575,7 +570,7 @@
         <div class="container">
           <div class="category_top">
             <span>Headphones</span>
-            <a href="">View All Categories</a>
+            <a href="./product/all.html">View All Categories</a>
           </div>
           <div class="spec_product_wrapper">
             <div class="big_product_box">
@@ -585,7 +580,7 @@
                 <a href="">Shop Now</a>
                 <div class="hover_border"></div>
               </div>
-              <a href="">
+              <a href="./product/chosenProduct.html">
                 <img src="./public/images/products/headphone_big.png" alt="" />
               </a>
             </div>
@@ -646,20 +641,20 @@
               <a href="">Remote Controls</a>
             </div>
           </div>
-          <div class="tv_wrapper">
-            <div class="next_prev_box">
+          <div class="tv_wrapper swiper mySwiper">
+            <div class="next_prev_box swiper-btn-prev">
               <img src="./public/images/icons/next.svg" alt="" />
             </div>
-            <div class="tv_product_boxes">
-              <div class="tv_product_box">
+            <div class="tv_product_boxes swiper-wrapper">
+              <div class="tv_product_box swiper-slide">
                 <div class="product_img">
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <img src="./public/images/products/samsung_tv.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
                   <span class="product_title">Samsung</span>
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <p class="product_desc">
                       Samsung 58" 4K UHD HDR LED Tizen Smart TV
                     </p>
@@ -678,15 +673,15 @@
                   </div>
                 </div>
               </div>
-              <div class="tv_product_box">
+              <div class="tv_product_box swiper-slide">
                 <div class="product_img">
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <img src="./public/images/products/tcl.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
                   <span class="product_title">TCL</span>
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <p class="product_desc">
                       TCL 3-Series 40" 1080p HD LED Android Smart TV ...
                     </p>
@@ -705,15 +700,15 @@
                   </div>
                 </div>
               </div>
-              <div class="tv_product_box">
+              <div class="tv_product_box swiper-slide">
                 <div class="product_img">
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <img src="./public/images/products/LG-UHD.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
                   <span class="product_title">"LIFE'S GOOD LG</span>
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <p class="product_desc">
                       LG 65" 4K UHD HDR LED webOS Smart TV
                     </p>
@@ -732,15 +727,15 @@
                   </div>
                 </div>
               </div>
-              <div class="tv_product_box">
+              <div class="tv_product_box swiper-slide">
                 <div class="product_img">
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <img src="./public/images/products/LG-OLED.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
                   <span class="product_title">"LIFE's GOOD" LG</span>
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <p class="product_desc">
                       LG 55" 4K UHD HDR OLED webOS Smart TV
                     </p>
@@ -759,15 +754,96 @@
                   </div>
                 </div>
               </div>
-              <div class="tv_product_box">
+              <div class="tv_product_box swiper-slide">
                 <div class="product_img">
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
                     <img src="./public/images/products/SONY-TV.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
                   <span class="product_title">SONY</span>
-                  <a href="">
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      SONY X85J 65" 4K UHD HDR LED Smart Google TV ...
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,300 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$400</strong>
+                    <span>$460</span>
+                  </div>
+                </div>
+              </div>
+                <div class="tv_product_box swiper-slide">
+                <div class="product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img src="./public/images/products/LG-UHD.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">"LIFE'S GOOD LG</span>
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      LG 65" 4K UHD HDR LED webOS Smart TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,285 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$500</strong>
+                    <span>$700</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box swiper-slide">
+                <div class="product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img src="./public/images/products/LG-OLED.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">"LIFE's GOOD" LG</span>
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      LG 55" 4K UHD HDR OLED webOS Smart TV
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,743 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$800</strong>
+                    <span>$870</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box swiper-slide">
+                <div class="product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img src="./public/images/products/SONY-TV.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">SONY</span>
+                  <a href="./product/chosenProduct.html">
                     <p class="product_desc">
                       SONY X85J 65" 4K UHD HDR LED Smart Google TV ...
                     </p>
@@ -787,11 +863,10 @@
                 </div>
               </div>
             </div>
-            <div class="next_prev_box" style="transform: scaleX(-1)">
+            <div class="next_prev_box swiper-btn-next" style="transform: scaleX(-1)">
               <img src="./public/images/icons/next.svg" alt="" />
             </div>
-          </div>
-          <div class="pagination_box">
+            <div class="pagination_box swiper-pagination">
             <div class="pagination_main">
               <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
               <div class="pagination_dot">
@@ -823,6 +898,8 @@
               />
             </div>
           </div>
+          </div>
+          
         </div>
       </div>
       <div class="event_frame">
@@ -847,9 +924,9 @@
                 <span>Seconds</span>
               </div>
             </div>
-            <a href="">Show More</a>
+            <a href="./product/all.html">Show More</a>
           </div>
-          <div class="event_product_wrapper">
+          <div class="event_product_wrapper swiper mySwiper">
             <div class="next_prev_box">
               <img
                 src="./public/images/icons/next.svg"
@@ -857,8 +934,129 @@
                 class="white_svg"
               />
             </div>
-            <div class="event_product_boxes">
+            <div class="event_product_boxes swiper-wrapper">
+              
               <div class="event_product_box swiper-slide">
+                <div class="event_product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img
+                      src="./public/images/products/sony_notebook.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="product_content_box" style="padding: 0 0 0 10px">
+                  <span class="product_title">Samsung</span>
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      SAMSUNG ChromeBook 4+ 15.6" Intel...
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>2,698 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$43</strong>
+                    <span>$70</span>
+                  </div>
+                </div>
+              </div>
+              <div class="event_product_box swiper-slide">
+                <div class="event_product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img
+                      src="./public/images/products/sony_playstation.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="product_content_box" style="padding: 0 0 0 10px">
+                  <span class="product_title">SONY</span>
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      Sony Playstation 5 Video Game Console
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>4,680 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$360</strong>
+                    <span>$400</span>
+                  </div>
+                </div>
+              </div>
+              <div class="event_product_box swiper-slide">
+                <div class="event_product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img
+                      src="./public/images/products/apple_watch.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="product_content_box" style="padding: 0 0 0 10px">
+                  <span class="product_title">APPLE</span>
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      Apple Watch Series 3 GPS Space Gray -38mm
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>5,794 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$380</strong>
+                    <span>$410</span>
+                  </div>
+                </div>
+              </div>
+              <div class="event_product_box swiper-slide">
+                <div class="event_product_img">
+                  <a href="./product/chosenProduct.html">
+                    <img
+                      src="./public/images/products/canon_camera.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="product_content_box" style="padding: 0 0 0 10px">
+                  <span class="product_title">EATSPORT</span>
+                  <a href="./product/chosenProduct.html">
+                    <p class="product_desc">
+                      Canon EOS Rebel T100 Digital SLR Camera with.
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>4,652 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$270</strong>
+                    <span>$300</span>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="event_product_box swiper-slide">
                 <div class="event_product_img">
                   <a href="">
                     <img
@@ -977,7 +1175,7 @@
                     <span>$300</span>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="next_prev_box" style="transform: scaleX(-1)">
               <img
@@ -1111,20 +1309,19 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
       <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper('.mySwiper', {
-          slidesPerView: 4,
-          spaceBetween: 30,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-btn-next',
-            prevEl: '.swiper-btn-prev',
-          },
-        });
-      </script>
+        <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-btn-next",
+        prevEl: ".swiper-btn-prev",
+      },
+    });
+  </script>
     </div>
   </body>
 </html>
