@@ -157,9 +157,88 @@
                 <input type="text" name="name" id="last name" required />
               </div>
             </div>
+            <div class="one_input">
+              <label for="text">Company name</label>
+              <input type="text" name="text" id="text" required />
+              <label for="text">Country / Region*</label>
+              <select
+                name="text"
+                id="text"
+                placeholder="
+              Select"
+              >
+                <option value="uz">Asia</option>
+                <option value="ru">Europa</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="adress">Street adress*</label>
+              <input type="text" name="adress" id="adress" required />
+              <label for="text">Town / City*</label>
+              <input type="text" name="text" id="text" required />
+              <label for="text">State*</label>
+              <select name="text" id="text" placeholder="Select">
+                <option value="uz">Ubekistan</option>
+                <option value="ru">Russia</option>
+                <option value="eng">England</option>
+              </select>
+              <label for="number">ZIP Code*</label>
+              <input type="number" name="number" id="number" required />
+            </div>
+            <div class="double_input">
+              <div class="label_input">
+                <label for="number">Phone*</label>
+                <input type="text" name="name" id="number" required />
+              </div>
+              <div class="label_input">
+                <label for="email">Email address*</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+            </div>
+            <div class="input_title">
+              <span>Shipping details</span>
+              <p>Order notes (optional)</p>
+            </div>
+            <textarea name="text" id="text" cols="10" rows="12">
+                Order Notes </textarea
+            >
           </div>
-
-          <div class="check_order_box"></div>
+          <div class="check_order_box">
+            <span class="or_title">Your Order</span>
+            <div class="order_price_list">
+                <div class="order_list_left">
+                    <div class="pro_list_top">
+                  <span style="margin-right: 20px;">Apple MacBook Pro with Apple M1 Chip x 2</span>
+                  <span style="margin-right: 20px;">Apple MacBook Pro with Apple M1 Chip x 2</span>
+                </div>
+                <div class="pro_list_bot">
+                  <span>Sub Total</span>
+                  <span>Shipping</span>
+                  <span style="border-bottom: none;">Total</span>
+                </div>
+                </div>
+                <div class="order_list_right">
+                    <div class="pro_list_top">
+                  <span>$229.99</span>
+                  <span>$229.99</span>
+                </div>
+                <div class="pro_list_bot">
+                  <span>$854.98</span>
+                  <span>$20</span>
+                  <span style="border-bottom: none;">$225.98</span>
+                </div>
+                </div>
+              </div>
+              <div class="or_checkbox">
+                <input type="checkbox" >
+              <span>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.
+                </span>
+                <button>
+                    <a href="received.html">Place Order</a>
+                </button>
+              </div>
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
