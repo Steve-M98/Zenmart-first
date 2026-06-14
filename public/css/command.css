@@ -211,7 +211,6 @@ p {
 }
 
 /* PAGINATION BOX */
-
 .container .pagination_box {
   position: absolute;
   bottom: 0px;
@@ -223,7 +222,6 @@ p {
   flex-direction: row;
   justify-content: center;
 }
-
 .container .pagination_box .pagination_main {
   width: auto;
   height: 24px;

@@ -384,6 +384,14 @@
     color: #ffff;
     background-color: rgba(68, 120, 179, 0.687);
     border-bottom: 2px solid black;
+    border-radius: 5px;
+  }
+
+  .active {
+    color: #ffff;
+    background-color: rgba(68, 120, 179, 0.687);
+    border-bottom: 2px solid black;
+    border-radius: 5px;
   }
 }
 
