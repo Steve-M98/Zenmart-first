@@ -1,6 +1,6 @@
 @import url('command.css');
 
-.login_page_frame {
+.signup_page_frame {
   position: relative;
   width: 100%;
   height: auto;
@@ -9,11 +9,11 @@
   justify-content: center;
   align-items: center;
 
-  .login_page {
+  .signup_page {
     margin: 328px 588px;
     padding: 30px 35px;
     width: 900px;
-    height: 850px;
+    height: auto;
     box-sizing: border-box;
 
     border: 1px solid rgb(223, 220, 220);
@@ -92,9 +92,9 @@
       }
     }
     button {
-      width: 825px;
+      width: 820px;
       height: 52px;
-      margin-bottom: 60px;
+      margin-top: 20px;
 
       display: flex;
       flex-direction: row;
@@ -118,6 +118,7 @@
       color: #041e42;
     }
     p {
+      margin-top: 22px;
       font-family: var(--font);
       font-style: normal;
       font-size: 20px;
@@ -127,7 +128,7 @@
       color: #041e42;
     }
     .or_border_box {
-      margin-top: 60px;
+      margin-top: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
